@@ -6,7 +6,10 @@
       "type": "Ruby",
       "request": "launch",
       "cwd": "${workspaceRoot}",
-      "program": "${workspaceRoot}/fat.rb"
+      "program": "${workspaceRoot}/fat.rb",
+      "args": [
+        "C:\\Program Files", "50", "5"
+      ]
     },
     {
       "name": "Listen for rdebug-ide",
